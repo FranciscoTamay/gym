@@ -11,6 +11,9 @@
     <div id="entrenadores">
         <h1>@{{mensaje}}</h1>
     </div>
-    
+<script src="js/apis/apiEntrenadores.js"></script>
+<script src="js/vue.js"></script>
+<script src="js/vue-resource.js"></script>
+<script src="js/jquery.js"></script>
 </body>
 </html>

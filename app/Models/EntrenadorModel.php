@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class EntrenadorModel extends Model
 {
     use HasFactory;
-    protected $table = 'entrenadores'; // Nombre de la tabla en la base de datos
+    protected $table = 'entrenador'; // Nombre de la tabla en la base de datos
     protected $primaryKey = "id";
     protected $fillable = [
         'id',

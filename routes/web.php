@@ -21,3 +21,4 @@ Route::get('/', function () {
 // Apis 
 Route::apiResource('apiEntrenador', EntrenadorController::class);
 // Vistas
+Route::view('entrenadores','Entrenadores/entrenadores');
